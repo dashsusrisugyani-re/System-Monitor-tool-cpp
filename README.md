@@ -22,8 +22,9 @@ g++ -o system_monitor system_monitor.cpp
 ## Screenshots
 
 Add output screenshots here:
-- !(System-Monitor-tool-cpp/Screenshot_System_Monitor.png)
-  
+- !## Screenshots
+
+![System Monitor Output](/output1.png)
 
 ## Requirements
 
