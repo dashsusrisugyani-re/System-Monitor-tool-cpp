@@ -1,2 +1,31 @@
-# System-Monitor-tool-cpp
-A terminal-based Linux System Monitor written in C++ using system programming techniques. It displays CPU, RAM, disk usage, top processes, and network statistics by interfacing directly with Linux system APIs and the /proc filesystem.
+# Linux System Monitor (C++ Linux System Programming)
+
+A terminal-based system monitor for Linux, written in C++. It displays:
+- CPU statistics (from `/proc/stat`)
+- RAM and Swap info (using `sysinfo`)
+- Disk usage (using `df`)
+- Top 5 CPU-consuming processes (`ps`)
+- Network usage (from `/proc/net/dev`)
+
+## Compilation
+
+```bash
+g++ -o system_monitor system_monitor.cpp
+```
+
+## Usage
+
+```bash
+./system_monitor
+```
+
+## Screenshots
+
+Add output screenshots here:
+- ![Sample Output 1](screenshots/output1.png)
+- ![Sample Output 2](screenshots/output2.png)
+
+## Requirements
+
+- Linux Operating System
+- C++ compiler (`g++`)
